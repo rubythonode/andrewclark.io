@@ -1,0 +1,16 @@
+{
+  "stage": 0,
+  "optional": [
+    "utility.inlineEnvironmentVariables"
+  ],
+  "plugins": [
+    "react-transform"
+  ],
+  "extra": {
+    "react-transform": [{
+      "target": "react-transform-webpack-hmr",
+      "imports": ["react"],
+      "locals": ["module"]
+    }]
+  }
+}
